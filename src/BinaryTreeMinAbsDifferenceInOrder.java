@@ -8,9 +8,9 @@ public class BinaryTreeMinAbsDifferenceInOrder {
         if(root == null){
             return;
         }
-        inOrder(root.right);
-        list.add(root.val);
         inOrder(root.left);
+        list.add(root.val);
+        inOrder(root.right);
     }
 
     public static int getMinimumDifference(TreeNode root){

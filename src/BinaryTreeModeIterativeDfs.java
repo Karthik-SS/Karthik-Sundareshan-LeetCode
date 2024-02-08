@@ -13,12 +13,13 @@ public class BinaryTreeModeIterativeDfs {
             TreeNode node = stack.pop();
 
             map.put(node.val, map.getOrDefault(node.val, 0) + 1);
-            if (node.left != null) {
-                stack.add(node.left);
-            }
             if (node.right != null) {
                 stack.add(node.right);
             }
+            if (node.left != null) {
+                stack.add(node.left);
+            }
+
         }
 
         for (int key : map.keySet()) {
