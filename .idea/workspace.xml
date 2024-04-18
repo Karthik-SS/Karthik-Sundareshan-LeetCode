@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1007d11b-ad85-43a0-8ce2-a3bfadb03d8e" name="Changes" comment="Added A Comment In ArrayUniqueOccurrence2">
-      <change afterPath="$PROJECT_DIR$/src/LeastCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1007d11b-ad85-43a0-8ce2-a3bfadb03d8e" name="Changes" comment="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeModeIterativeDfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeModeIterativeDfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SubsetsBacktracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubsetsBacktracking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,14 +51,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.BinaryTreeMinAbsDifferenceInOrder">
-    <configuration name="ArrayUniqueOccurrence2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayUniqueOccurrence2" />
-      <module name="Karthik-Sundareshan-LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FibonacciMatrix">
     <configuration name="BinaryTreeMinAbsDifferenceInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeMinAbsDifferenceInOrder" />
       <module name="Karthik-Sundareshan-LeetCode" />
@@ -71,6 +61,13 @@
     </configuration>
     <configuration name="BinaryTreeModeIterativeDfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeModeIterativeDfs" />
+      <module name="Karthik-Sundareshan-LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FibonacciMatrix" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciMatrix" />
+        <item itemvalue="Application.SubsetsBacktracking" />
         <item itemvalue="Application.BinaryTreeMinAbsDifferenceInOrder" />
         <item itemvalue="Application.LeastCommonAncestor" />
-        <item itemvalue="Application.SubsetsBacktracking" />
         <item itemvalue="Application.BinaryTreeModeIterativeDfs" />
-        <item itemvalue="Application.ArrayUniqueOccurrence2" />
       </list>
     </recent_temporary>
   </component>
@@ -117,13 +114,33 @@
       <option name="project" value="LOCAL" />
       <updated>1706573802166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java.">
+      <option name="closed" value="true" />
+      <created>1707436765064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707436765064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added A Comment In ArrayUniqueOccurrence2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added A Comment In ArrayUniqueOccurrence2" />
+    <MESSAGE value="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,6 +189,51 @@
           <url>file://$PROJECT_DIR$/src/LeastCommonAncestor.java</url>
           <line>27</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

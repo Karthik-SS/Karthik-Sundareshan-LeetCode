@@ -10,8 +10,8 @@ public class BinaryTreeHeightUsingQueueIterative {
         queue.add(root);
         while (!queue.isEmpty()) {
             int a = queue.size();
-            // System.out.println("Queue Size = " +queue.size());
-            // System.out.println("a = " +a);
+             System.out.println("Queue Size = " +queue.size());
+             System.out.println("a = " +a);
             List l2 = new ArrayList<>();
             for (int i = 0; i < a; i++) {
                 TreeNode cur = queue.poll();

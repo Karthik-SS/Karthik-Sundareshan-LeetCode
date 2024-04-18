@@ -4,8 +4,26 @@ public class Anagram {
         String t = "nagaram";
 
         boolean answer = isAnagram(s, t);
-        System.out.println("Answer = " +answer);
+        System.out.println("Answer = " + answer);
+        boolean answer2 = isAnagram2(s, t);
+        System.out.println("Answer2 = " + answer2);
+    }
 
+    public static boolean isAnagram2(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        int[] table = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            table[s.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < t.length(); i++) {
+            table[t.charAt(i) - 'a']--;
+            if (table[t.charAt(i) - 'a'] < 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static boolean isAnagram(String s, String t) {

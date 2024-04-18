@@ -1,7 +1,7 @@
 public class BinarySearchRecursion {
     private static boolean binarySearchRecursion(int[] input, int l, int r, int key) {
         if(l <= r){
-            int mid = (l + r)/2;
+            int mid = l + (r - l)/2;
 
             if(input[mid] == key){
                 return true;

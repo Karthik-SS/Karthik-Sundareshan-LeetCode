@@ -18,15 +18,17 @@ public class BinaryTreeMaxDepth {
         int answer = maxDepth(root);
         System.out.println("Answer = " +answer);
 
+        int answer2 = maxDepth2(root);
+        System.out.println("Answer2 = " +answer2);
     }
-    /*public static int maxDepth(TreeNode root) {
+    public static int maxDepth2(TreeNode root) {
         if (root == null) {
             return 0;
         }
         int left = maxDepth(root.left) + 1;
         int right = maxDepth(root.right) + 1;
         return Math.max(left, right);
-    }*/
+    }
     /*
                    5
                   / \
@@ -39,7 +41,7 @@ public class BinaryTreeMaxDepth {
     public static int maxDepth(TreeNode root) {
         int depth = 1;
         if(root == null){
-           return depth--;
+           return --depth;
         }
         while(root != null){
             if(root.left != null){

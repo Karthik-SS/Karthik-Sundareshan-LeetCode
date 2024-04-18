@@ -23,19 +23,19 @@ public class FibonacciMatrix {
     }
 
     static void multiply(int[][] A, int[][] B) {
-        int x = A[0][0] * B[0][0] + A[0][1] * B[1][0];
-        int y = A[0][0] * B[0][1] + A[0][1] * B[1][1];
-        int z = A[1][0] * B[0][0] + A[1][1] * B[1][0];
-        int w = A[1][0] * B[0][1] + A[1][1] * B[1][1];
+        int w = A[0][0] * B[0][0] + A[0][1] * B[1][0];
+        int x = A[0][0] * B[0][1] + A[0][1] * B[1][1];
+        int y = A[1][0] * B[0][0] + A[1][1] * B[1][0];
+        int z = A[1][0] * B[0][1] + A[1][1] * B[1][1];
 
-        A[0][0] = x;
-        A[0][1] = y;
-        A[1][0] = z;
-        A[1][1] = w;
+        A[0][0] = w;
+        A[0][1] = x;
+        A[1][0] = y;
+        A[1][1] = z;
     }
 
     public static void main(String[] args) {
-        int N = 12;
+        int N = 0;
         int fibonacci = fib(N);
         //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
         //0, 1, 2, 3, 4, 5, 6,  7,  8,  9, 10, 11,  12
