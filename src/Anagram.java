@@ -3,13 +3,13 @@ import java.util.regex.Pattern;
 
 public class Anagram {
     public static void main(String[] args) {
-        //String s = "anagram"; --> ASCII
-        //String t = "nagaram"; --> ASCII
+        //String s = "anagram"; --> ASCII.
+        //String t = "nagaram"; --> ASCII.
 
-        String s = "\\u0061\\u006e\\u0061\\u0067\\u0072\\u0061\\u006d\n"; //--> UNICODE
+        String s = "\\u0061\\u006e\\u0061\\u0067\\u0072\\u0061\\u006d\n"; //--> UNICODE.
         // a      n       a      g      r      a      m
 
-        String t = "\\u006e\\u0061\\u0067\\u0061\\u0072\\u0061\\u006d\n"; //--> UNICODE
+        String t = "\\u006e\\u0061\\u0067\\u0061\\u0072\\u0061\\u006d\n"; //--> UNICODE.
         //  n      a      g      a      r      a      m
 
         //boolean answer = isAnagram(s, t);
