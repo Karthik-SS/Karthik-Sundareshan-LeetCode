@@ -1,12 +1,40 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Anagram {
     public static void main(String[] args) {
-        String s = "anagram";
-        String t = "nagaram";
+        //String s = "anagram";
+        //String t = "nagaram";
 
-        boolean answer = isAnagram(s, t);
-        System.out.println("Answer = " + answer);
-        boolean answer2 = isAnagram2(s, t);
+        String s = "\\u0061\\u006e\\u0061\\u0067\\u0072\\u0061\\u006d\n";
+        // a      n       a      g      r      a      m
+
+        String t = "\\u006e\\u0061\\u0067\\u0061\\u0072\\u0061\\u006d\n";
+        //  n      a      g      a      r      a      m
+
+        //boolean answer = isAnagram(s, t);
+        //System.out.println("Answer = " + answer);
+        String sFormatted = decodeWithPlainJava(s);
+        String tFormatted = decodeWithPlainJava(t);
+
+        boolean answer2 = isAnagram2(sFormatted.trim(), tFormatted.trim());
         System.out.println("Answer2 = " + answer2);
+    }
+
+    public static String decodeWithPlainJava(String input) {
+        Pattern pattern = Pattern.compile("\\\\u[0-9a-fA-F]{4}");
+        Matcher matcher = pattern.matcher(input);
+
+        StringBuilder decodedString = new StringBuilder();
+
+        while (matcher.find()) {
+            String unicodeSequence = matcher.group();
+            char unicodeChar = (char) Integer.parseInt(unicodeSequence.substring(2), 16);
+            matcher.appendReplacement(decodedString, Character.toString(unicodeChar));
+        }
+
+        //matcher.appendTail(decodedString);
+        return decodedString.toString();
     }
 
     public static boolean isAnagram2(String s, String t) {
@@ -15,10 +43,22 @@ public class Anagram {
         }
         int[] table = new int[26];
         for (int i = 0; i < s.length(); i++) {
+            System.out.println("s.charAt(i) = " + s.charAt(i));
+            /*if(Character.isLetter(s.charAt(i))){
+                table[s.charAt(i) - 'a']++;
+            }*/
             table[s.charAt(i) - 'a']++;
         }
         for (int i = 0; i < t.length(); i++) {
+            /*if(Character.isLetter(s.charAt(i))){
+                table[t.charAt(i) - 'a']--;
+            }*/
             table[t.charAt(i) - 'a']--;
+            /*if(Character.isLetter(s.charAt(i))){
+                if (table[t.charAt(i) - 'a'] < 0) {
+                    return false;
+                }
+            }*/
             if (table[t.charAt(i) - 'a'] < 0) {
                 return false;
             }
