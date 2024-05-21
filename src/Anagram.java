@@ -7,10 +7,10 @@ public class Anagram {
         //String t = "nagaram"; --> ASCII.
 
         String s = "\\u0061\\u006e\\u0061\\u0067\\u0072\\u0061\\u006d\n"; //--> UNICODE.
-        // a      n       a      g      r      a      m
+                    // a       n      a      g      r      a      m
 
         String t = "\\u006e\\u0061\\u0067\\u0061\\u0072\\u0061\\u006d\n"; //--> UNICODE.
-        //  n      a      g      a      r      a      m
+                    //  n      a      g      a      r      a      m
 
         //boolean answer = isAnagram(s, t);
         //System.out.println("Answer = " + answer);
