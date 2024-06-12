@@ -17,11 +17,11 @@ public class SumOfAllDivisors {
         {
             int sum = 0;
 
-            for (int i = 1; i <= n; ++i) {
+            for (int i = 1; i <= n; i++) {
 
                 // Find all divisors of i
                 // and add them
-                for (int j = 1; j * j <= i; ++j) {
+                for (int j = 1; j * j <= i; j++) {
                     if (i % j == 0) {
                         if (i / j == j)
                             sum += j;
