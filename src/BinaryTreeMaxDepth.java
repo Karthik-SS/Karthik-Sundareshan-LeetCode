@@ -23,7 +23,7 @@ public class BinaryTreeMaxDepth {
     }
     public static int maxDepth(TreeNode root) {
         if (root == null) {
-            return 0;
+            return -1; // Can be 1 if we are counting the nodes and not the edges.
         }
         int left = maxDepth(root.left) + 1;
         int right = maxDepth(root.right) + 1;

@@ -14,7 +14,16 @@ public class ArrayUniqueOccurrence2 {
         for (int key : arr) {
             map.put(key, map.getOrDefault(key, 0) + 1);
         }
-
+        Set<Integer> set = new HashSet<>(map.values());
+        System.out.println("/***************************************************************/");
+        if(set.size() != map.size()){
+            System.out.println("Just Printing If The Array Has Unique Occurrence Or " +"\n"+
+                    "Not By Passing The Map Values To The Constructor Of A Set = False");
+        }else{
+            System.out.println("Just Printing If The Array Has Unique Occurrence Or " +"\n"+
+                    "Not By Passing The Map Values To The Constructor Of A Set = True");
+        }
+        System.out.println("/***************************************************************/");
         for (int key : map.keySet()) {
             System.out.println(key + " : " + map.get(key));
         }

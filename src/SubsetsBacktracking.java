@@ -4,7 +4,6 @@ import java.util.List;
 public class SubsetsBacktracking {
        // static List<List<Integer>> output = new ArrayList<>();
         static int n, k;
-
         public static void backtrack(int index, List<Integer> curr, int[] nums, List<List<Integer>> output) {
             // If the combination is done
             if (curr.size() == k) {

@@ -1,6 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+                 1
+                / \
+               0  48
+                 /  \
+                12  49
+ */
+
 public class BinaryTreeMinAbsDifferenceInOrder {
     static List<Integer> list = new ArrayList<>();
 
@@ -22,7 +30,13 @@ public class BinaryTreeMinAbsDifferenceInOrder {
         }
          return minDifference;
     }
-
+/*
+                 1
+                / \
+               0  48
+                 /  \
+                12  49
+ */
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

@@ -1,6 +1,5 @@
 public class ReverseWordsInAString {
     private static String outPut = "";
-
     private static void strRev(char[] str, int startIndx, int endIndx) {
         while (startIndx < endIndx) {
             char temp = str[startIndx];
@@ -10,7 +9,6 @@ public class ReverseWordsInAString {
             endIndx--;
         }
     }
-
     public static String reverseWords(String sentence) {
         sentence = sentence.replaceAll("\\s+", " ").trim();
 
@@ -26,7 +24,6 @@ public class ReverseWordsInAString {
                 start = end + 1;
             }
         }
-
         return new String(charArray);
     }
 

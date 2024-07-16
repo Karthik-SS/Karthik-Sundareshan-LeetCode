@@ -21,14 +21,11 @@ public class HeightOfABinaryTreeIterative {
         if (root == null) {
             return 0;
         }
-
         // create an empty queue and enqueue the root node
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
-
         Node front = null;
         int height = 0;
-
         // loop till queue is empty
         while (!queue.isEmpty()) {
             // calculate the total number of nodes at the current level
@@ -38,20 +35,16 @@ public class HeightOfABinaryTreeIterative {
             // non-empty left and right child
             while (size-- > 0) {
                 front = queue.poll();
-
                 if (front.left != null) {
                     queue.add(front.left);
                 }
-
                 if (front.right != null) {
                     queue.add(front.right);
                 }
             }
-
             // increment height by 1 for each level
             height++;
         }
-
         return height;
     }
 

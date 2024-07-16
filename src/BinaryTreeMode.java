@@ -7,9 +7,7 @@ public class BinaryTreeMode {
     public static int[] findMode(TreeNode root) {
         Map<Integer, Integer> map = new HashMap<>();
         dfs(root, map);
-
         int maxFreq = 0;
-
         for (int key : map.keySet()) {
             if (map.get(key) > maxFreq) {
                 maxFreq = map.get(key);
