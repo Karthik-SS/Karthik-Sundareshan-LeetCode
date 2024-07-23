@@ -8,9 +8,9 @@ public class RemoveNthNodeFromEndOfList {
             cur = cur.next;
         }
         cur = head;
-        int nodeBeforeTheCandidate = length - n - 1;
+        int nodeBeforeTheCandidate = length - n;
 
-        for(int i = 0; i < nodeBeforeTheCandidate; i++){
+        for(int i = 1; i < nodeBeforeTheCandidate; i++){
             cur = cur.next;
         }
         cur.next = cur.next.next;
