@@ -9,11 +9,11 @@ public class FibonacciVariables {
                 a = b;
                 b = c;
             }
-            return c;
+            return b;
         }
 
     public static void main(String[] args) {
-        int n = 1;
+        int n = 6;
         //0, 1, 1, 2, 3, 5, 8, 13, 21
         int fibonacci = fib(n);
         System.out.println("Fibonacci = " +fibonacci);

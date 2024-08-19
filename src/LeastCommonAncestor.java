@@ -3,6 +3,15 @@ public class LeastCommonAncestor {
         if(root == null) {
             return null;
         }
+/*
+                       3
+                    /     \
+                   5        1
+                 /   \     /  \
+                6     2   0    8
+                     /  \
+                    7    4
+*/
 
         TreeNode left = LCA(root.left, p, q);
         TreeNode right = LCA(root.right, p, q);
@@ -25,7 +34,8 @@ public class LeastCommonAncestor {
         root.right.left = new TreeNode(0);
         root.right.right = new TreeNode(8);
 
-        int p = 7, q = 4;
+        int p = 8, q = 6;
         TreeNode lca = LCA(root, p, q);
+        System.out.println("LCA = " +lca.val);
     }
 }

@@ -19,7 +19,7 @@ public class HappyNumber {
     }
 
     public static void main(String[] args) {
-        int n = 99999999;//28; // 99,999,999
+        int n = 9;//28; // 99,999,999
         boolean answer = isHappyNumber(n);
         System.out.println("Answer = "+answer);
     }

@@ -28,7 +28,7 @@ public class BinaryTreeBalancedOptimized {
         if (Math.abs(left.height - right.height) < 2) {
             return new TreeInfo(Math.max(left.height, right.height) + 1, true);
         }
-        return new TreeInfo(-1, false);
+        return new TreeInfo(Math.max(left.height, right.height), false);
     }
 
 /*

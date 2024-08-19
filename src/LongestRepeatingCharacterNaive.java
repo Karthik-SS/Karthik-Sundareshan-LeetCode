@@ -1,25 +1,46 @@
-
 public class LongestRepeatingCharacterNaive {
     public static void main(String[] args) {
-        String input = "ABC";//"RRLE";
-        int k = 1, answer = 0;
+        String input = "ABBCCCCMMMMXXXXXLLLLLLLL";//MMMMXXXXXLLLLLLLL";//"RRLE";
+        int k = 4, answer = 0;
         answer = characterReplacement(input, k);
-        System.out.println("Answer = "+answer);
+        System.out.println("Answer = " + answer);
     }
+
     public static int characterReplacement(String s, int k) {
         int n = s.length();
-        int maxLength = 0;
         int count = 0;
+        int maxFreq = 0;
         for (int l = 0; l < n; l++) {
             // initialize a sliding window for each unique letter
             for (int m = l + 1; m < n; m++) {
-                 for(int r = m + 1; r < n; r++){
-                     if(s.charAt(m) == s.charAt(r)){
-                         count++;
-                     }
-                 }
+                if (maxFreq == k) {
+                    return maxFreq;
+                }
+                if (s.charAt(m) == s.charAt(l)) {
+                    if (count == 0) {
+                        count++;
+                        count++;
+                        l++;
+                    } else {
+                        count++;
+                        l++;
+                    }
+                    if (count > maxFreq) {
+                        maxFreq = count;
+                    }
+                } else {
+                    if (maxFreq == 0) {
+                        maxFreq = count;
+                    }
+                    count = 0;
+                    l = m - 1;
+                    break;
+                }
             }
         }
-        return maxLength;
+        if (maxFreq == k) {
+            return maxFreq;
+        }
+        return -1;
     }
 }

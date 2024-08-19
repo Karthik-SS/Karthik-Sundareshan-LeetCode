@@ -15,9 +15,7 @@ public class BinaryTreeHeightUsingQueueIterative {
             List l2 = new ArrayList<>();
             for (int i = 0; i < a; i++) {
                 TreeNode cur = queue.poll();
-                if (cur != null) {
                     l2.add(cur.val);
-                }
                 if (cur.left != null) {
                     queue.add(cur.left);
                 }
@@ -28,7 +26,7 @@ public class BinaryTreeHeightUsingQueueIterative {
             if (!l2.isEmpty())
                 l1.add(l2);
         }
-        return l1.size();
+        return l1.size() - 1;
     }
 
     public static void main(String[] args) {

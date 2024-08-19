@@ -43,7 +43,6 @@ public class BinaryTreeDepthAndHeight {
         }
         // Store the maximum height of
         // the left and right subtree
-        if(height < 0) {
             int leftHeight = findHeightUtil(root.left, x);
             int rightHeight = findHeightUtil(root.right, x);
             // Update height of the current node
@@ -53,8 +52,6 @@ public class BinaryTreeDepthAndHeight {
                 height = ans;
             }
             return ans;
-        }
-        return height;
     }
     // Function to find the height of
 // a given node in a Binary Tree

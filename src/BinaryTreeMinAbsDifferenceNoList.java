@@ -7,11 +7,19 @@ public class BinaryTreeMinAbsDifferenceNoList {
         if (node == null) {
             return;
         }
-
+/*
+*                    4
+*                  /   \
+*                 2     6
+*                / \
+*               1   3
+*              /
+*             1
+*/
         inorderTraversal(node.left);
         // Find the difference with the previous value if it is there.
         if (prevNode != null) {
-            minDifference = Math.min(minDifference, (node.val - prevNode.val));
+            minDifference = Math.min((node.val - prevNode.val), minDifference);
         }
         prevNode = node;
         inorderTraversal(node.right);
@@ -27,6 +35,7 @@ public class BinaryTreeMinAbsDifferenceNoList {
         root.left = new TreeNode(2);
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(3);
+        root.left.left.left = new TreeNode(1);
 
         root.right = new TreeNode(6);
         //root.right.left = new TreeNode(12);

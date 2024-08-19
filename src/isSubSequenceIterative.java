@@ -1,8 +1,8 @@
 public class isSubSequenceIterative {
 
     public static boolean isSubsequence(String s, String t) {
-        int leftBound = s.length();
-        int rightBound = t.length();
+        int leftBound = Math.min(s.length(), t.length());
+        int rightBound = Math.max(s.length(), t.length());
         int left = 0;
         int right = 0;
 

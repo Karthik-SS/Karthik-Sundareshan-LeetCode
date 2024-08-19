@@ -2,6 +2,8 @@ public class IsSubSequenceRecursive {
     String source, target;
     Integer leftBound, rightBound;
 
+    boolean answer = false;
+
     public static void main(String[] args) {
         String s = "abc";
         String t = "ahbgdc";
@@ -17,12 +19,11 @@ public class IsSubSequenceRecursive {
             return true;
         if (rightIndex == rightBound)
             return false;
-
-        boolean answer = false;
-
+       // boolean answer = false;
         // consume both strings or just the target string
-        if (source.charAt(leftIndex) == target.charAt(rightIndex))
+        if (source.charAt(leftIndex) == target.charAt(rightIndex)){
             ++leftIndex;
+        }
         ++rightIndex;
 
         answer = rec_isSubsequence(leftIndex, rightIndex);

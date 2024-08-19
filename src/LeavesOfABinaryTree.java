@@ -34,14 +34,28 @@ public class LeavesOfABinaryTree {
         // first calculate the height of the left and right children
         int leftHeight = getHeight(root.left);
         int rightHeight = getHeight(root.right);
-
+ /*
+ *                    5
+ *                  /   \
+ *                 2     7
+ *               /  \
+ *              1    3
+ *
+ * */
         int currHeight = Math.max(leftHeight, rightHeight) + 1;
 
-        if (this.solution.size() == currHeight) {
+        /*if (this.solution.size() == currHeight && currHeight == 0) {
+            this.solution.add(new ArrayList<>());
+        }*/
+        if (this.solution.size() == currHeight){
             this.solution.add(new ArrayList<>());
         }
 
         this.solution.get(currHeight).add(root.val);
+
+        /*if(currHeight == 0){
+            this.solution.get(currHeight).add(root.val);
+        }*/
 
         return currHeight;
     }

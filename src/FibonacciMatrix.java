@@ -35,7 +35,7 @@ public class FibonacciMatrix {
     }
 
     public static void main(String[] args) {
-        int N = 0;
+        int N = 5;
         int fibonacci = fib(N);
         //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
         //0, 1, 2, 3, 4, 5, 6,  7,  8,  9, 10, 11,  12
