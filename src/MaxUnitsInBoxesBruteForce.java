@@ -4,9 +4,9 @@ public class MaxUnitsInBoxesBruteForce {
         int unitCount = 0;
         while (truckSize > 0) {
             int maxUnitsIndex = findMaxUnitsIndex(arr);
-            if (maxUnitsIndex == -1) {
+/*            if (maxUnitsIndex == -1) {
                 break;
-            }
+            }*/
             int boxCount = Math.min(truckSize, arr[maxUnitsIndex][0]);
             unitCount += arr[maxUnitsIndex][1] * boxCount;
             truckSize -= boxCount;

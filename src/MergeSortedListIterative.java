@@ -1,6 +1,6 @@
 public class MergeSortedListIterative {
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode head = new ListNode();
+        ListNode head = new ListNode(-1);
         ListNode tail = head;
 
         while(list1 != null && list2 != null){
@@ -13,7 +13,6 @@ public class MergeSortedListIterative {
             }
             tail = tail.next;
         }
-
         tail.next = list1 == null ? list2 : list1;
         //tail = tail.next;
         return head.next;

@@ -10,7 +10,7 @@ public class ReverseWordsInAString {
         }
     }
     public static String reverseWords(String sentence) {
-        sentence = sentence.replaceAll("\\s+", " ").trim();
+        sentence = sentence.trim().replaceAll("\\s+", " ");
 
         char[] charArray = sentence.toCharArray();
         int strLen = charArray.length - 1;

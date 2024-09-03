@@ -1,30 +1,33 @@
 import java.util.*;
-import java.util.stream.*;
+
 public class MaximumInSlidingWindow {
         // function to clean up the window
-        public static Deque<Integer> cleanUp(int i, Deque<Integer> currentWindow, int[] nums) {
+        public static void maxCleanUp(int i, int[] nums, Deque<Integer> currentWindow) {
             while (!currentWindow.isEmpty() && nums[i] >= nums[currentWindow.getLast()]) {
                 currentWindow.removeLast();
             }
-            return currentWindow;
+        }
+        public static void windowCleanup(int i, int w, Deque<Integer> currentWindow){
+            if (!currentWindow.isEmpty() && currentWindow.getFirst() <= (i - w)) {
+                currentWindow.removeFirst();
+            }
         }
         // function to find the maximum in all possible windows
         public static int[] findMaxSlidingWindow(int[] nums, int w) {
-            if (nums.length == 1) {
+            int n = nums.length;
+            if (n == 1) {
                 return nums;
             }
-            int [] output = new int[nums.length - w + 1];
+            int [] output = new int[n - w + 1];
             Deque<Integer> currentWindow = new ArrayDeque<>();
             for (int i = 0; i < w; i++) {
-                currentWindow = MaximumInSlidingWindow.cleanUp(i, currentWindow, nums);
+                maxCleanUp(i, nums, currentWindow);
                 currentWindow.add(i);
             }
             output[0] = nums[currentWindow.getFirst()];
             for (int i = w; i < nums.length; i++) {
-                cleanUp(i, currentWindow, nums);
-                if (!currentWindow.isEmpty() && currentWindow.getFirst() <= (i - w)) {
-                    currentWindow.removeFirst();
-                }
+                maxCleanUp(i, nums, currentWindow);
+                windowCleanup(i, w, currentWindow);
                 currentWindow.add(i);
                 output[i - w + 1] = nums[currentWindow.getFirst()];
             }
@@ -45,7 +48,7 @@ public class MaximumInSlidingWindow {
                     {4, 4, 4, 4, 4, 4}
             };*/
 
-            int[] nums = {10,6,9,-3,23,-1,34,56,67,-1,-4,-8,-2,9,10,34,67};
+            int[] nums = {9, 5, 30, 1, 6, 3};
             // Expected = [10, 9, 23, 23, 34, 56, 67, 67, 67, -1, -2, 9, 10, 34, 67]
             //             10, 9, 23, 23, 34, 56, 67, 67, 67, -1, -2, 9, 10, 34, 67,
             //             10, 9, 23, 23, 34, 56, 67, 67, 67, -1, -2, 9, 10, 34, 67, 0,

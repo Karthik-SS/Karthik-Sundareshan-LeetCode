@@ -1,6 +1,18 @@
 import java.util.PriorityQueue;
 
 public class MaxUnitsInBoxes {
+    /* ((a, b) -> Integer.compare(b[0], a[0]))
+      0 = {int[2]@781} [5, 10]
+      1 = {int[2]@784} [4, 7]
+      2 = {int[2]@785} [3, 9]
+      3 = {int[2]@783} [2, 5]
+    * */
+    /* ((a, b) -> Integer.compare(b[1], a[1]))
+      0 = {int[2]@782} [5, 10]
+      1 = {int[2]@785} [3, 9]
+      2 = {int[2]@784} [4, 7]
+      3 = {int[2]@783} [2, 5]
+    * */
     public static int maximumUnits(int[][] boxTypes, int truckSize) {
         PriorityQueue<int[]> heap = new PriorityQueue<int[]>((a, b) -> Integer.compare(b[1],
                 a[1]));
@@ -13,13 +25,14 @@ public class MaxUnitsInBoxes {
         int totalMaxUnits = 0;
         while (!heap.isEmpty() && truckSize > 0) {
             boxAndUnitCount = heap.poll();
-            if (truckSize - boxAndUnitCount[0] >= 0)
+            if (truckSize - boxAndUnitCount[0] >= 0){
                 totalMaxUnits += boxAndUnitCount[0] * boxAndUnitCount[1];
-            else
+            }
+            else{
                 totalMaxUnits += truckSize * boxAndUnitCount[1];
+            }
             truckSize -= boxAndUnitCount[0];
         }
-
         return totalMaxUnits;
     }
 

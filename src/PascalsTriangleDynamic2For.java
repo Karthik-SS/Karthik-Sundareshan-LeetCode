@@ -25,7 +25,7 @@ public class PascalsTriangleDynamic2For {
     }
 
     public static void main(String[] args) {
-        int numRows = 3;
+        int numRows = 5;
         List<List<Integer>> result = generatePascal(numRows);
 
         for(int i = 0; i < result.size(); i++){

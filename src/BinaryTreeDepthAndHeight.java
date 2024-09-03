@@ -11,6 +11,7 @@ public class BinaryTreeDepthAndHeight {
         // Base case
         if (root == null)
             return -1;
+        //int dist = -1;
         // Check if x is current node=
        if ((root.val == x) ||
                 // Otherwise, check if x is

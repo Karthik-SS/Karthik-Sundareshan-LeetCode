@@ -3,8 +3,7 @@ import java.util.Map;
 
 public class MaxUnitsInBoxesLinearN {
     public static int maximumUnits(int[][] boxTypes, int truckSize) {
-        int[] box = new int[1001];
-        Map<Integer, Integer> map = new HashMap<>();
+        /*Map<Integer, Integer> map = new HashMap<>();
         for (int[] boxType : boxTypes) {
             //Units are the indices and values are the boxes
             map.put(boxType[0], boxType[1]);
@@ -18,13 +17,9 @@ public class MaxUnitsInBoxesLinearN {
         for (int[] boxType : boxTypes) {
             //Units are the indices and values are the boxes
             box[boxType[1]] += boxType[0];
-        }
+        }*/
 
-        int left = 0;
-        //int right = 1000;
-
-        int boxesWithUnits = 0;
-        for (int units = 1000; units > 0; units /= 2) {
+/*        int boxesWithUnits = 0;
             int mid = left + (units - left) / 2;
             if (box[mid] == 0) {
                 units = mid;
@@ -35,17 +30,25 @@ public class MaxUnitsInBoxesLinearN {
                 if (truckSize == 0) {
                     return boxesWithUnits;
                 }
-            }
+            }*/
+
+        int[] box = new int[1001];
+        for (int[] boxType : boxTypes) {
+            //Units are the indices and values are the boxes
+            box[boxType[1]] += boxType[0];
         }
-        //Units are the indices and values are the boxes
-           /* if (box[units] > 0) {
+        int boxesWithUnits = 0;
+        for (int units = 1000; units > 0; --units) {
+            //Units are the indices and values are the boxes
+            if (box[units] > 0) {
                 int fitIn = Math.min(box[units], truckSize);
                 boxesWithUnits += units * fitIn;
                 truckSize -= fitIn;
                 if (truckSize == 0) {
                     return boxesWithUnits;
                 }
-            }*/
+            }
+        }
         return boxesWithUnits;
     }
 

@@ -22,7 +22,7 @@ public class SagarSumOfDivisors {
         return ans;
     }
     public static void main(String[] args) {
-        int n = 20;
+        int n = 8;
         System.out.println(sumOfAllDivisors(n));
 /*        n = 5;
         System.out.println(sumOfAllDivisors(n));*/

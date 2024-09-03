@@ -24,14 +24,14 @@ public class PalindromeReverseLinkedList {
         ListNode cur = head;
         ListNode prev = null;
         while(cur != null){
-            ListNode nextTemp = cur.next;
+            ListNode nextNode = cur.next;
             cur.next = prev;
             prev = cur;
-            cur = nextTemp;
+            cur = nextNode;
         }
         return prev;
     }
-//1->2->3->2->1
+//6->1->0->1->6
 //6->1->0->0->1->6
     public static ListNode endOfFirstHalf(ListNode head){
         ListNode slow = head;
@@ -56,12 +56,11 @@ public class PalindromeReverseLinkedList {
         head.next.next.next.next = new ListNode(1);
         head.next.next.next.next.next = new ListNode(6);
 
-/*        ListNode head = new ListNode(6);
+       /*ListNode head = new ListNode(6);
         head.next = new ListNode(1);
         head.next.next = new ListNode(0);
-        head.next.next.next = new ListNode(5);
-        head.next.next.next.next = new ListNode(1);
-        head.next.next.next.next.next = new ListNode(6);*/
+        head.next.next.next = new ListNode(1);
+        head.next.next.next.next = new ListNode(6);*/
 
         boolean answer = isPalindrome(head);
         System.out.println("Is The Linked List A Palindrome ? = " +answer);
