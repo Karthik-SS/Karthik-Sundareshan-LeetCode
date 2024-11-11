@@ -14,8 +14,9 @@ public class PascalsTriangleDynamicProgramming {
         }
 
         List<List<Integer>> result = generate(numRows - 1);
-        List<Integer> prevRows = result.get(result.size() - 1);
         List<Integer> newRow = new ArrayList<>();
+        List<Integer> prevRows = result.get(result.size() - 1);
+
         newRow.add(1);
 
         for (int j = 1; j < numRows - 1; j++) {
@@ -28,7 +29,7 @@ public class PascalsTriangleDynamicProgramming {
     }
 
     public static void main(String[] args) {
-        int numRows = 7;
+        int numRows = 5;
         List<List<Integer>> answer = generate(numRows);
 
         for (int i = 0; i < answer.size(); i++) {

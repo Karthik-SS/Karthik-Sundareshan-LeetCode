@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PascalsTriangleDynamic2For {
@@ -6,7 +7,13 @@ public class PascalsTriangleDynamic2For {
     public static List<List<Integer>> generatePascal(int numRows){
         List<List<Integer>> triangle = new ArrayList<List<Integer>>();
         triangle.add(new ArrayList<>());
+        if (numRows == 0) {
+            return triangle;
+        }
         triangle.get(0).add(1);
+        if (numRows == 1) {
+            return triangle;
+        }
 
         for(int i = 1; i < numRows; i++){
             List<Integer> row = new ArrayList<>();

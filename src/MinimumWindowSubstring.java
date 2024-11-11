@@ -18,6 +18,7 @@ public class MinimumWindowSubstring {
         int[] ans = {-1, 0, 0};
 
         while (r < s.length()) {
+            //s = "ADOBECDABC"
             char c = s.charAt(r);
             int count2 = windowCounts.getOrDefault(c, 0);
             windowCounts.put(c, count2 + 1);
@@ -44,7 +45,7 @@ public class MinimumWindowSubstring {
     }
     public static void main(String[] args) {
         String s = "ADOBECDABC";//"ADOBECODEBANC"; //DOBECODEBA
-        String t = "ABC";
+        String t = "ADC";
         String output = minWindowSubstring(s, t);
         System.out.println("Minimum Window Substring = " + output);
 

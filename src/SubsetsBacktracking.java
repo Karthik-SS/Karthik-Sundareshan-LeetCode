@@ -14,7 +14,7 @@ public class SubsetsBacktracking {
                 // Add i into the current combination
                 curr.add(nums[i]);
 
-                // Use the next integers to complete the combination
+                // Use the   next integers to complete the combination
                 backtrack(i + 1, curr, nums, output);
 
                 // Backtrack
@@ -24,8 +24,7 @@ public class SubsetsBacktracking {
 
         public static List<List<Integer>> subsets(int[] nums) {
             n = nums.length;
-            List<List<Integer>> output;
-            output = new ArrayList<>();
+            List<List<Integer>> output = new ArrayList<>();
             for (k = 0; k <= n; ++k) {
                 backtrack(0, new ArrayList<>(), nums, output);
             }
@@ -39,6 +38,5 @@ public class SubsetsBacktracking {
         for(int i = 0; i < answer.size(); i++){
             System.out.print(answer.get(i) +", ");
         }
-
     }
 }

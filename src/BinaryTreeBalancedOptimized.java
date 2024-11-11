@@ -25,10 +25,12 @@ public class BinaryTreeBalancedOptimized {
         }
         // Use the height obtained from the recursive calls to
         // determine if the current node is also balanced.
+        int height = Math.max(left.height, right.height) + 1;
+
         if (Math.abs(left.height - right.height) < 2) {
-            return new TreeInfo(Math.max(left.height, right.height) + 1, true);
+            return new TreeInfo(height, true);
         }
-        return new TreeInfo(Math.max(left.height, right.height), false);
+        return new TreeInfo(height, false);
     }
 
 /*

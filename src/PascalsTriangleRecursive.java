@@ -16,13 +16,14 @@ public class PascalsTriangleRecursive {
 
         List<List<Integer>> prevRows = generate(numRows - 1);
         List<Integer> newRow = new ArrayList<>();
+        List<Integer> lastRow = prevRows.get(prevRows.size() - 1);
 
         for (int i = 0; i < numRows; i++) {
             newRow.add(1);
         }
 
         for (int j = 1; j < numRows - 1; j++) {
-            newRow.set(j, prevRows.get(prevRows.size() -1).get(j) + prevRows.get(prevRows.size() - 1).get(j - 1));
+            newRow.set(j, lastRow.get(j) + lastRow.get(j - 1));
         }
 
         prevRows.add(newRow);

@@ -58,9 +58,20 @@ public class BinaryTreeDepthAndHeight {
 // a given node in a Binary Tree
     static int findHeight(TreeNode root, int x) {
         // Stores height of the Tree
+        //int ans =
         findHeightUtil(root, x);
         // Return the height
         return height;
+        //return ans;
+    }
+    static int findDepthFull(TreeNode root) {
+        // Base case
+        if (root == null)
+            return -1;
+        int left = findDepthFull(root.left);
+        int right = findDepthFull(root.right);
+        // Return depth of the node
+        return Math.max(left, right) + 1;
     }
     // Driver Code
     public static void main(String[] args) {
@@ -83,6 +94,8 @@ public class BinaryTreeDepthAndHeight {
         // Function call to find the
         // height of a given node
         System.out.println("Height Of Node " +k +" = " + findHeight(root, k));
+
+        System.out.println("Max Depth Of The Full Tree = " + findDepthFull(root));
     }
 
 }

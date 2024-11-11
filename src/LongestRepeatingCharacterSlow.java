@@ -2,7 +2,7 @@ import java.util.HashSet;
 
 class LongestRepeatingCharacterSlow {
     public static void main(String[] args) {
-        String input = "ABC";//"AABCBCB";//"RRLE";
+        String input = "AABCBCB";//"AABCBCB";//"RRLE";
         int k = 1, answer = 0;
         answer = characterReplacement(input, k);
         System.out.println("Answer = "+answer);

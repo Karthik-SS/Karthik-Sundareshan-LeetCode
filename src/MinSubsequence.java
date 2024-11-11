@@ -5,7 +5,7 @@ class MinSubsequence {
     public static String minWindow(String str1, String str2) {
         int str1L = str1.length();
         int str2L = str2.length();
-        float length = Float.POSITIVE_INFINITY;
+        float length = Float.POSITIVE_INFINITY; //Float.POSITIVE_INFINITY ; Float.NEGATIVE_INFINITY
         int s1Indx = 0;
         int s2Indx = 0;
         int start = 0, end = 0;
@@ -44,8 +44,8 @@ class MinSubsequence {
         String[] str2 = {
                 "adeq", "kzed", "css", "la", "ab"
         };*/
-        String str1 = "axbcdedeaqlade";
-        String str2 = "ade";
+        String str1 = "axbcdeaceaxqlade";
+        String str2 = "axe";
         String minSubsequence = minWindow(str1, str2);
         System.out.println("minSubsequence = "+minSubsequence);
 

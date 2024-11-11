@@ -25,7 +25,7 @@ public class ValidPalindromeII {
         return true;
     }
     public static void main(String[] args) {
-        String str = "tebbem"; //"tebbem"; "madame"
+        String str = "madame"; //"tebbem"; "madame"
         //int n = str.length();
         boolean answer = isPalindrome(str);
         System.out.println("Answer = " + answer);

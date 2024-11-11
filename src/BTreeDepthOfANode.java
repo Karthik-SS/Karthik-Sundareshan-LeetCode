@@ -21,9 +21,10 @@ public class BTreeDepthOfANode {
         root.right.right.left = new TreeNode(7);
         root.right.right.right = new TreeNode(9);
 
-        int answer = findDepth(root, 2);
+        int answer = findDepth(root, 1);
         System.out.println("Answer = " + answer);
     }
+
     static int findDepth(TreeNode root, int x) {
         // Base case
         if (root == null)
@@ -37,10 +38,10 @@ public class BTreeDepthOfANode {
                 (dist = findDepth(root.left, x)) >= 0 ||
                 // Otherwise, check if x is
                 // present in the right subtree
-                (dist = findDepth(root.right, x)) >= 0)
-            // Return depth of the node
+                (dist = findDepth(root.right, x)) >= 0) {
             return dist + 1;
-
+        }
+        // Return depth of the node
         return dist;
     }
 }

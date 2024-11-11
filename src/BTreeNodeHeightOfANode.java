@@ -22,7 +22,7 @@ public class BTreeNodeHeightOfANode {
         root.right.right.left = new TreeNode(7);
         root.right.right.right = new TreeNode(9);
 
-        int answer = findHeight(root, 2);
+        int answer = findHeight(root, 5);
         System.out.println("Answer = " + answer);
     }
     static int findHeightUtil(TreeNode root, int x) {

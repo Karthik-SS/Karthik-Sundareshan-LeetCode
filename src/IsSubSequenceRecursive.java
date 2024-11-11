@@ -6,7 +6,7 @@ public class IsSubSequenceRecursive {
 
     public static void main(String[] args) {
         String s = "abc";
-        String t = "ahbgdc";
+        String t = "ahbgdx";
         boolean answer = false;
         IsSubSequenceRecursive obj = new IsSubSequenceRecursive();
         answer = obj.isSubsequence(s, t);
@@ -26,8 +26,9 @@ public class IsSubSequenceRecursive {
         }
         ++rightIndex;
 
-        answer = rec_isSubsequence(leftIndex, rightIndex);
-        return answer;
+        //answer =
+         return  rec_isSubsequence(leftIndex, rightIndex);
+        //return answer;
     }
 
     public boolean isSubsequence(String s, String t) {
