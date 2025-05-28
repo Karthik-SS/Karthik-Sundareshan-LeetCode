@@ -5,9 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1007d11b-ad85-43a0-8ce2-a3bfadb03d8e" name="Changes" comment="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Karthik-Sundareshan-LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Karthik-Sundareshan-LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayUniqueOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUniqueOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayUniqueOccurrence2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUniqueOccurrence2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BTreeDepthOfANode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BTreeDepthOfANode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BTreeNodeHeightOfANode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BTreeNodeHeightOfANode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeDepthAndHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeDepthAndHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeHeightUsingQueueIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeHeightUsingQueueIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceNoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceNoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeModeIterativeDfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeModeIterativeDfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeModeWithNoMapWithVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeModeWithNoMapWithVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeShortestPathLeafNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeShortestPathLeafNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChangeBinaryRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChangeBinaryRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircularLoopArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularLoopArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClimbingStairsRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClimbingStairsRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteDupsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteDupsLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciDynamicBottomUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciDynamicBottomUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FibonacciMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciMemoization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciMemoization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GiftingGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiftingGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphBfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphBfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeaviestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaviestSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeightOfABinaryTreeIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeightOfABinaryTreeIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IncreasingOrderSearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncreasingOrderSearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IncreasingOrderSearchTreeWithStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncreasingOrderSearchTreeWithStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IsSubSequenceRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsSubSequenceRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IterationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IterationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeastCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeastCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeavesOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeavesOfABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCodeAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefixBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestCommonPrefixBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestPalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPalindromeSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestRepeatingCharacterNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestRepeatingCharacterNaive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestRepeatingCharacterSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestRepeatingCharacterSlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixDiagonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixDiagonalSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxUnitsInBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxUnitsInBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxUnitsInBoxesBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxUnitsInBoxesBruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxUnitsInBoxesLinearN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxUnitsInBoxesLinearN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaximumInSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaximumInSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Merge2Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Merge2Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedListIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiddleNodeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiddleNodeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeedleInAHaystack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeedleInAHaystack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PascalsTriangleDynamic2For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalsTriangleDynamic2For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PascalsTriangleDynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalsTriangleDynamicProgramming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PascalsTriangleRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalsTriangleRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReapetedDNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReapetedDNA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseWordsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SagarSumOfDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SagarSumOfDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolveNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveNQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SubsetsBacktracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubsetsBacktracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOf4Divisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOf4Divisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOfAllDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfAllDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOfAllDivisorsLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfAllDivisorsLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOfAllDivisorsSqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfAllDivisorsSqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidPalindromeII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidParantheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidParantheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/isSubSequenceIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/isSubSequenceIterative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,43 +114,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Karthik-SS"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Karthik-SS/Karthik-Sundareshan-LeetCode.git",
+    "accountId": "ee4f9496-8c2b-4347-8f92-535cb76cccc8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2beEVQ8h6WJZn7EaUuwaSyMPhCK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kimbo/Desktop/Karthik-Sundareshan-WebServices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Anagram.executor": "Run",
+    "Application.BinaryTreeMinAbsDifferenceInOrder.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/karthik/Desktop/{Karthik-Sundareshan-LeetCode}/Karthik-Sundareshan-LeetCode",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.FibonacciMatrix">
-    <configuration name="BinaryTreeMinAbsDifferenceInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeMinAbsDifferenceInOrder" />
+}]]></component>
+  <component name="RunManager" selected="Application.Anagram">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Anagram" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeModeIterativeDfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeModeIterativeDfs" />
+    <configuration name="BinaryTreeMinAbsDifferenceInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeMinAbsDifferenceInOrder" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.BinaryTreeMinAbsDifferenceInOrder" />
         <item itemvalue="Application.FibonacciMatrix" />
         <item itemvalue="Application.SubsetsBacktracking" />
-        <item itemvalue="Application.BinaryTreeMinAbsDifferenceInOrder" />
         <item itemvalue="Application.LeastCommonAncestor" />
-        <item itemvalue="Application.BinaryTreeModeIterativeDfs" />
       </list>
     </recent_temporary>
   </component>

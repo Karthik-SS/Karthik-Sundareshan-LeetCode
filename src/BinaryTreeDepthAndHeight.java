@@ -19,12 +19,13 @@ public class BinaryTreeDepthAndHeight {
                 (dist = findDepth(root.left, x)) >= 0 ||
                 // Otherwise, check if x is
                 // present in the right subtree
-                (dist = findDepth(root.right, x)) >= 0){
+                (dist = findDepth(root.right, x)) >= 0)
+       {
            return dist + 1;
        }
             // Return depth of the node
        return dist;
-       }
+    }
     /*
                 5
              /      \

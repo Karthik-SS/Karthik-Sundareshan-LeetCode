@@ -2,7 +2,7 @@ public class BinarySearchIterative {
 
     public static int binarySearchKey(int[] input, int l, int r, int key) {
         while (l <= r) {
-            int mid = l + (r - l) / 2;
+            int mid = l + ((r - l) >> 1); //l + ((r - l) >> 1); l + (r - l) / 2;
             if (input[mid] == key) {
                 return mid;
             }

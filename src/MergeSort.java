@@ -18,19 +18,19 @@ public class MergeSort {
         merge(arr, larray, rarray, mid, n - mid);
     }
 
-    public static void merge(int[] arr, int[] larray, int[] rarray, int left, int right) {
+    public static void merge(int[] arr, int[] larray, int[] rarray, int leftBound, int rightBound) {
         int i = 0, j = 0, k = 0;
-        while (i < left && j < right) {
+        while (i < leftBound && j < rightBound) {
             if (larray[i] <= rarray[j]) {
                 arr[k++] = larray[i++];
             } else {
                 arr[k++] = rarray[j++];
             }
         }
-        while (i < left) {
+        while (i < leftBound) {
             arr[k++] = larray[i++];
         }
-        while (j < right) {
+        while (j < rightBound) {
             arr[k++] = rarray[j++];
         }
     }

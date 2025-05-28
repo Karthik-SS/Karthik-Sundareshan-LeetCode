@@ -29,6 +29,7 @@ public class Anagram {
 
         while (matcher.find()) {
             String unicodeSequence = matcher.group();
+            System.out.println("Pattern Group :" +unicodeSequence);
             char unicodeChar = (char) Integer.parseInt(unicodeSequence.substring(2), 16);
             matcher.appendReplacement(decodedString, Character.toString(unicodeChar));
         }
@@ -43,7 +44,7 @@ public class Anagram {
         }
         int[] table = new int[26];
         for (int i = 0; i < s.length(); i++) {
-            System.out.println("s.charAt(i) = " + s.charAt(i));
+            //System.out.println("s.charAt(i) = " + s.charAt(i));
             /*if(Character.isLetter(s.charAt(i))){
                 table[s.charAt(i) - 'a']++;
             }*/

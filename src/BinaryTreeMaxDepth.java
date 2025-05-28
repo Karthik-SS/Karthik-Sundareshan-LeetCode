@@ -8,7 +8,7 @@ public class BinaryTreeMaxDepth {
         root.left.left = new TreeNode(2);
         root.left.left.left = new TreeNode(1);
         root.left.left.left.left = new TreeNode(0);
-        root.left.left.left.left.left = new TreeNode(-1);
+        root.left.left.left.left.left = new TreeNode(0);
 
 
         //root.right.left = new TreeNode(12);
@@ -43,7 +43,7 @@ public class BinaryTreeMaxDepth {
             /
            0
           /
-        -1
+         0
    */
 /*    public static int maxDepth(TreeNode root) {
         int depth = 1;
