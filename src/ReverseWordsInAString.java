@@ -28,7 +28,7 @@ public class ReverseWordsInAString {
     }
 
     public static void main(String[] args) {
-        String str = "A   String   With   Multiple   Spaces";
+        String str = "  A   String   With   Multiple     Spaces    ";
         outPut = reverseWords(str);
         System.out.println("/************OutPut***********/");
         System.out.println(outPut);

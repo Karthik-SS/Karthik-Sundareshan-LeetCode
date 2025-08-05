@@ -4,100 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1007d11b-ad85-43a0-8ce2-a3bfadb03d8e" name="Changes" comment="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1007d11b-ad85-43a0-8ce2-a3bfadb03d8e" name="Changes" comment="Commiting on 05-27-2025. From Home!">
+      <change afterPath="$PROJECT_DIR$/src/NumberOfMatchingSubSequence_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Karthik-Sundareshan-LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Karthik-Sundareshan-LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayUniqueOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUniqueOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayUniqueOccurrence2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUniqueOccurrence2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BTreeDepthOfANode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BTreeDepthOfANode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BTreeNodeHeightOfANode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BTreeNodeHeightOfANode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeBalancedOptimized2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeDepthAndHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeDepthAndHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeHeightUsingQueueIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeHeightUsingQueueIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMaxDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceNoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMinAbsDifferenceNoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeModeIterativeDfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeModeIterativeDfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeModeWithNoMapWithVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeModeWithNoMapWithVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeShortestPathLeafNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeShortestPathLeafNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChangeBinaryRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChangeBinaryRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircularLoopArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularLoopArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClimbingStairsRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClimbingStairsRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeleteDupsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteDupsLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciDynamicBottomUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciDynamicBottomUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciMemoization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciMemoization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GiftingGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiftingGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphBfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphBfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaviestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaviestSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeightOfABinaryTreeIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeightOfABinaryTreeIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IncreasingOrderSearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncreasingOrderSearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IncreasingOrderSearchTreeWithStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncreasingOrderSearchTreeWithStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsSubSequenceRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsSubSequenceRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IterationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IterationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeastCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeastCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeavesOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeavesOfABinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCodeAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefixBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestCommonPrefixBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestPalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPalindromeSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestRepeatingCharacterNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestRepeatingCharacterNaive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestRepeatingCharacterSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestRepeatingCharacterSlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixDiagonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixDiagonalSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxUnitsInBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxUnitsInBoxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxUnitsInBoxesBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxUnitsInBoxesBruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxUnitsInBoxesLinearN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxUnitsInBoxesLinearN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaximumInSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaximumInSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Merge2Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Merge2Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSortedListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedListIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiddleNodeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiddleNodeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeedleInAHaystack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeedleInAHaystack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NextGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromePartitioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalsTriangleDynamic2For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalsTriangleDynamic2For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalsTriangleDynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalsTriangleDynamicProgramming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalsTriangleRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalsTriangleRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReapetedDNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReapetedDNA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseWordsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SagarSumOfDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SagarSumOfDivisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveNQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubsetsBacktracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubsetsBacktracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOf4Divisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOf4Divisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOfAllDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfAllDivisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOfAllDivisorsLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfAllDivisorsLinear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOfAllDivisorsSqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfAllDivisorsSqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidPalindromeII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidParantheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidParantheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/isSubSequenceIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/isSubSequenceIterative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Karthik-SS"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Karthik-SS&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Karthik-SS/Karthik-Sundareshan-LeetCode.git",
-    "accountId": "ee4f9496-8c2b-4347-8f92-535cb76cccc8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Karthik-SS/Karthik-Sundareshan-LeetCode.git&quot;,
+    &quot;accountId&quot;: &quot;ee4f9496-8c2b-4347-8f92-535cb76cccc8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -142,6 +53,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Anagram.executor": "Run",
     "Application.BinaryTreeMinAbsDifferenceInOrder.executor": "Run",
+    "Application.InsertionSort.executor": "Debug",
+    "Application.MergeSort.executor": "Run",
+    "Application.NumberOfMatchingSubSequence.executor": "Debug",
+    "Application.ReverseWordsInAString.executor": "Debug",
+    "Application.SelectionSort.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -151,7 +67,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "advanced.settings"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -160,37 +76,37 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Anagram">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Anagram" />
+  <component name="RunManager" selected="Application.NumberOfMatchingSubSequence_1">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeMinAbsDifferenceInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeMinAbsDifferenceInOrder" />
+    <configuration name="NumberOfMatchingSubSequence_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfMatchingSubSequence_1" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciMatrix" />
+    <configuration name="NumberOfMatchingSubSequence_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfMatchingSubSequence_2" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeastCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeastCommonAncestor" />
+    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseWordsInAString" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetsBacktracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubsetsBacktracking" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
       <module name="Karthik-Sundareshan-LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.BinaryTreeMinAbsDifferenceInOrder" />
-        <item itemvalue="Application.FibonacciMatrix" />
-        <item itemvalue="Application.SubsetsBacktracking" />
-        <item itemvalue="Application.LeastCommonAncestor" />
+        <item itemvalue="Application.NumberOfMatchingSubSequence_1" />
+        <item itemvalue="Application.NumberOfMatchingSubSequence_2" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.ReverseWordsInAString" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707436765064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commiting on 05-27-2025. From Home!">
+      <option name="closed" value="true" />
+      <created>1748392214502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748392214502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +163,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -249,7 +190,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added A Comment In ArrayUniqueOccurrence2" />
     <MESSAGE value="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some minor changes with tree traversal. Changed the order of root.left and root.right -&gt; BinaryTreeMinAbsDifferenceInOrder.java and BinaryTreeModeIterativeDfs.java. Added a new class to find the least common ancestor. Changed the signature to List&lt;&gt; instead of ArrayList&lt;&gt; in SubsetsBacktracking.java." />
+    <MESSAGE value="Commiting on 05-27-2025. From Home!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting on 05-27-2025. From Home!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,6 +285,379 @@
           <url>file://$PROJECT_DIR$/src/SubsetsBacktracking.java</url>
           <line>21</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseWordsInAString.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SelectionSort.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>12</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfMatchingSubSequence_2.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
